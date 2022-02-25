@@ -36,3 +36,60 @@ input {
 img {
 	max-width: 300px;
 }
+
+.skills {
+	background-color: orange;
+}
+
+.interests {
+	background-color: crimson;
+}
+
+.career-goals {
+	background-color: orange;
+}
+
+label {
+	border:1px solid #ccc;
+	padding:10px;
+	margin:0 0 10px;
+	display:block; 
+   }
+   
+label:hover {
+	background:#eee;
+	cursor:pointer;
+}
+
+#color, #place, #ritual {
+	display: block;
+	width: 100%;
+	border: none;
+	background-color: yellow;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#red {
+	color: red;
+}
+
+#img1 {
+	display: flex;
+}
+
+#img2 {
+	display: flex;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
